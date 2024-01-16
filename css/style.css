@@ -295,13 +295,13 @@ select {
   position: relative;
   max-width: 1170px;
   min-height: 500px;
-  background-image: url("./Images/Group\ 39.png");
+  background-image: url("/Images/Group\ 39.png");
 }
 .image2 {
   position: relative;
   max-width: 1170px;
   min-height: 500px;
-  background-image: url("./Images/Group\ 40.png");
+  background-image: url("/Images/Group\ 40.png");
 }
 
 .discount-card {
@@ -501,7 +501,7 @@ hr {
   width: 670px;
   height: 420px;
   margin-left: 20px;
-  background-image: url("./Images/Rectangle\ 88.png");
+  background-image: url("/Images/Rectangle\ 88.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
