@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
   .banner {
     padding: 32px 24px;
+    margin-bottom: 20px;
   }
   .banner .content .banner-text h2 {
     color: #fff;
@@ -21,4 +22,129 @@
     height: 100%;
     margin: 0 24px 24px;
   }
+.row{
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+.row .col50{
+  width: 100%;
+  padding: 20px;
+}
+.row .col50 .imgBx img{
+  position: relative;
+}
+.destination{
+  margin-top: 20px;
+}
+.gallery{
+  display: block;
+}
+.gallery > figure > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.perfect-place .row{
+  flex-direction: column;
+}
+.perfect-place .row .col50{
+  width: 100%;
+}
+.perfect-place .row .col50 .videoBx video {
+  position: relative;
+ 
+}
+.contact {
+  flex-direction: column;
+  gap: 20px;
+}
+.contact .contact-details {
+  position: relative;
+  width: 90%;
+  border: 1px solid #ff5400;
+  padding: 40px;
+  border-radius: 8px;
+}
+.contact .contact-image {
+  position: relative;
+  width: 484px;
+  height: 420px;
+  margin-right: 20px;
+  background-image: url("/Images/Rectangle\ 88.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+}
+.image1, .image3, .image2{
+  position: relative;
+  width: 427px;
+  height: 626px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+}
+.discount-card {
+  width: 366px;
+  height: 407px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 36px;
+}
+.discount-image > .image2 > .discount-card {
+  position: absolute;
+  top: 195px;
+  left: 30px;
+}
+.discount-image{
+  margin-bottom: 20px;
+}
+.section-title h2 {
+  margin-top: 20px;
+}
+.package-btn {
+  width: 50%;
+  
+}
+footer,
+.contact  {
+  margin-top: 20px;
+}
+.choose-card-container {
+  flex-direction: column;
+}
+.choose-card-container .card {
+  width: 520px;
+  height: 285px;
+  margin: 0 auto;
+}
+.navigation {
+  display: none;
+}
+header .logo {
+  gap: 0px;
+}
+header {
+ padding:10px 0;
+  justify-content: space-around;
+}
+header span{
+  display: inline-block;
+}
+.discount-image > .image1 > .discount-card, .discount-image > .image3 > .discount-card {
+  position: absolute;
+  top: 198px;
+  right: 31px;
+}
+.discount-card .span {
+  display: block;
+}
+.discount-card a{
+  margin: 0;
+}
+}
+
+
